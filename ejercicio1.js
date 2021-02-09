@@ -1,8 +1,5 @@
-// EJERCICIO 2.
-const nombreArray = ["M", "A", "N", "U", "E", "L"];
+let nombre = ["M", "A", "N", "U", "E", "L"];
 
-nombreArray.map((letra) => {
-	letra.match(/[aeiou]/i)
-		? console.log("He encontrado la VOCAL: ", letra)
-		: console.log("He encontrado la CONSONANTE", letra);
-});
+for (let index = 0; index < nombre.length; index++) {
+	console.log(nombre[index]);
+}
